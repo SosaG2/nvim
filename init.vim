@@ -9,7 +9,7 @@ set title  " Muestra el nombre del archivo en la ventana de la terminal
 set number  " Muestra los números de las líneas
 set relativenumber
 set mouse=a  " Permite la integración del mouse (seleccionar texto, mover el cursor
-
+ 
 set nowrap  " No dividir la línea si es muy larga
 set lazyredraw
 set ignorecase
