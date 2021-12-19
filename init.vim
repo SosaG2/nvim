@@ -9,7 +9,7 @@ set title  " Muestra el nombre del archivo en la ventana de la terminal
 set number  " Muestra los números de las líneas
 set relativenumber
 set mouse=a  " Permite la integración del mouse (seleccionar texto, mover el cursor
- 
+                        
 set nowrap  " No dividir la línea si es muy larga
 set lazyredraw
 set ignorecase
@@ -17,19 +17,17 @@ set smarttab
 set ai
 set si
 set path+=**
-
+            
 set cursorline  " Resalta la línea actual
 
-inoremap <silent><expr> <TAB>
-      \ pumvisible() ? "\<C-n>" : "\<TAB>"
-inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
-
-" Indentación a 2 espacios
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set shiftround
 set expandtab  " Insertar espacios en lugar de <Tab>s
+        
+
+" Indentación a 2 espacios
 
 set hidden  " Permitir cambiar de buffers sin tener que guardarlos
 
